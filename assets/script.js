@@ -88,6 +88,9 @@
     })
       .done(function (response) {
         $("#cta-btn").text("Thank you");
+        $("html, body").animate({
+          scrollTop: $("#thank-you").offset().top,
+        });
       })
       .fail(function (res) {
         $("#cta-btn").text("Send a message");
