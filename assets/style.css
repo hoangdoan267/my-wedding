@@ -916,3 +916,31 @@ section.e-transform{
       -ms-flex-order: 1;
           order: 1;
 }
+
+.qr-code-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.qr-code-item {
+  /* margin-left: 16px;
+  margin-right: 16px; */
+  flex: 1
+}
+
+.qr-code {
+  width: 120px;
+  height: 120px;
+}
+.qr-code-item p:nth-child(2) {
+  margin-bottom: 0px;
+}
+
+#thank-you .elementor-icon {
+  font-size: 24px;
+}
+
+.bank-logo {
+  width: 120px;
+}
