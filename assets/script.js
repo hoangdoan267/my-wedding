@@ -83,7 +83,7 @@
     $.ajax({
       method: "POST",
       dataType: "json",
-      url: "https://script.google.com/macros/s/AKfycbyaDVe4ubpkAiWpp-aJ9wJeUnJqYMXRi5h4sLFaogWGt545X_AEKdppVEIeeBrYoz07/exec",
+      url: "https://script.google.com/macros/s/AKfycbzdJudY1Tq1XvycvfMX3ZQi4djmi0ZupWt096S5IJfnjqcoyTxQhkVYt7iePagD0koI/exec",
       data: formData,
     })
       .done(function (response) {
